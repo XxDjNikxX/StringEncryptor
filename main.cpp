@@ -1,6 +1,5 @@
 #include <iostream>
-
-std::string CesarEncryptor(std::string, int);
+#include "Header.h"
 int main() {
     std::string unencrypted_text;
     int key = 0;
